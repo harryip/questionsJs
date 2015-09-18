@@ -35,7 +35,7 @@ var firebaseURL = "https://classquestion.firebaseio.com/";
 
 
 $scope.roomId = roomId;
-var url = "https://glowing-fire-1919.firebaseio.com/" + roomId + "/questions/";
+var url = "https://glowing-fire-1919.firebaseio.com/..." + roomId + "/questions/";
 var echoRef = new Firebase(url);
 
 var query = echoRef.orderByChild("order");
